@@ -1,0 +1,15 @@
+{
+  "first_name": "Rowland",
+  "middle_name": "Jack",
+  "last_name": "Bull",
+  "email": "Rowland.Jack@hotmail.com",
+  "dob": "2006-04-32",
+  "gender": "male",
+  "status" : "active",
+  "terms_accepted": 1,
+  "address_street": "631 Treutel Forest",
+  "address_city": "West Paxton",
+  "address_state": "Arkansas",
+  "address_zip": 19911,
+  "phone": "844-517-2343"
+}
