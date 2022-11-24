@@ -1,10 +1,11 @@
 package routes_test
 
 import (
+	"testing"
+
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/tranthienphucbreak/parsleytest/cmd/webapp/routes"
-	"testing"
 )
 
 func TestPatientService(t *testing.T) {
@@ -13,10 +14,10 @@ func TestPatientService(t *testing.T) {
 }
 
 var _ = Describe("Patient Service", func() {
+
 	defer GinkgoRecover()
-	var (
-	//patientHandler routes.PatientHandler
-	)
+
+	//var patientHandler routes.PatientHandler
 
 	BeforeEach(func() {
 		//patientHandler = routes.NewServicesHandler(&patient.PatientService{})

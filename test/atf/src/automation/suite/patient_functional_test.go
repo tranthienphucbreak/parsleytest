@@ -3,15 +3,16 @@ package suite
 import (
 	"encoding/json"
 	"fmt"
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
-	"github.com/tranthienphucbreak/parsleytest/internal/patient"
 	"io/ioutil"
 	"net/http"
 	"net/url"
 	"os"
 	"strings"
 	"testing"
+
+	. "github.com/onsi/ginkgo"
+	. "github.com/onsi/gomega"
+	"github.com/tranthienphucbreak/parsleytest/internal/patient"
 )
 
 const HOST = "http://localhost:18443"
@@ -25,17 +26,10 @@ func TestPatientService(t *testing.T) {
 
 var _ = Describe("Patient Service Functional Test", func() {
 	defer GinkgoRecover()
-	var (
-	//patientHandler routes.PatientHandler
-	)
 
-	BeforeEach(func() {
-		//patientHandler = routes.NewServicesHandler(&patient.PatientService{})
-	})
+	BeforeEach(func() {})
 
-	AfterEach(func() {
-
-	})
+	AfterEach(func() {})
 
 	It("GetPatients API OK", func() {
 		req := newGetRequest("/patients")
